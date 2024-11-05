@@ -1,4 +1,4 @@
-import { EVMTokenType, EVMChainType } from './types';
+import { EVMChainType, EVMTokenType } from './types';
 
 /**
  * EVM Tokens and their contract addresses.

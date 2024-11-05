@@ -1,4 +1,4 @@
-import { HyperlaneChainEnum, HyperlaneAddressesType } from './types';
+import { HyperlaneAddressesType, HyperlaneChainEnum } from './types';
 
 const HoleskyAddresses: Partial<HyperlaneAddressesType> = {
   staticMerkleRootMultisigIsmFactory:

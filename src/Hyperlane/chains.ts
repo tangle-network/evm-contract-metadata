@@ -1,9 +1,10 @@
 import {
   ChainMetadata,
-  ExplorerFamily,
-  ChainTechnicalStack
+  ChainTechnicalStack,
+  ExplorerFamily
 } from '@hyperlane-xyz/sdk';
 import { ProtocolType } from '@hyperlane-xyz/utils';
+
 import { HyperlaneChainEnum } from './types';
 
 const HoleskyChainMetadata: ChainMetadata = {
