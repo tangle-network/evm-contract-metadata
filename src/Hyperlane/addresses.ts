@@ -82,6 +82,15 @@ const TangleMainnetAddresses: Partial<HyperlaneAddressesType> = {
  * Hyperlane contract addresses deployed by the Tangle Network.
  *
  * Contains core Hyperlane addresses like mailboxes, IGP, routers etc.
+ *
+ * example:
+ *
+ * ```ts
+ * import { HyperlaneAddresses, HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
+ *
+ * const holeskyMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.Holesky].mailbox;
+ * const tangleMainnetMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.TangleMainnet].mailbox;
+ * ```
  */
 export const HyperlaneAddresses = {
   [HyperlaneChainEnum.Holesky]: HoleskyAddresses,

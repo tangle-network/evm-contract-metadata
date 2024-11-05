@@ -107,6 +107,14 @@ const TangleMainnetChainMetadata: ChainMetadata = {
 
 /**
  * List of chains on which the Tangle Network has deployed Hyperlane contracts.
+ *
+ * example:
+ *
+ * ```ts
+ * import { HyperlaneChainEnum, HyperlaneChains } from '@tangle-network/hyperlane-contract-metadata';
+ *
+ * const holeskyChainMetadata = HyperlaneChains[HyperlaneChainEnum.Holesky];
+ * ```
  */
 export const HyperlaneChains = {
   [HyperlaneChainEnum.Holesky]: HoleskyChainMetadata,

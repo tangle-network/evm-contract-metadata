@@ -1,9 +1,32 @@
+/**
+ * Enum for Hyperlane Chain Types.
+ *
+ * example:
+ *
+ * ```ts
+ * import { HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
+ *
+ * const chainType = HyperlaneChainEnum.TangleMainnet;
+ * ```
+ */
 export enum HyperlaneChainEnum {
   Holesky = 'holesky',
   TangleTestnet = 'tangletestnet',
   TangleMainnet = 'tangle'
 }
 
+/**
+ * Hyperlane Addresses.
+ *
+ * example:
+ *
+ * ```ts
+ * import { HyperlaneAddressesType, HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
+ *
+ * const holeskyMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.Holesky].mailbox;
+ * const tangleMainnetMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.TangleMainnet].mailbox;
+ * ```
+ */
 export type HyperlaneAddressesType = {
   aggregationHook: string;
   domainRoutingIsm: string;
