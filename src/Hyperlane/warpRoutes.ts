@@ -2,9 +2,6 @@ import { TokenStandard, WarpCoreConfig } from '@hyperlane-xyz/sdk';
 
 /**
  * Warp routes deployed by the Tangle Network.
- *
- * @see {@link WarpCoreConfig}
- * @type {WarpCoreConfig}
  */
 export const HyperlaneWarpRouteConfig: WarpCoreConfig = {
   tokens: [
@@ -41,8 +38,9 @@ export const HyperlaneWarpRouteConfig: WarpCoreConfig = {
 
 /**
  * List of warp route IDs supported by the Tangle Network dApp.
- * Warp route IDs follow the format `SYMBOL/chainname1-chainname2...`, where chains are ordered alphabetically.
  *
- * @type {Array<string>}
+ * Warp route IDs follow the format `SYMBOL/chainname1-chainname2...`, where chains are ordered alphabetically.
  */
-export const HyperlaneWarpRouteWhitelist = ['WETH/holesky-tangletestnet'];
+export const HyperlaneWarpRouteWhitelist = [
+  'WETH/holesky-tangletestnet'
+] as const;

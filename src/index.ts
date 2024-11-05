@@ -1,2 +1,2 @@
-export * from './EVM';
-export * from './Hyperlane';
+export * from './evm';
+export * from './hyperlane';

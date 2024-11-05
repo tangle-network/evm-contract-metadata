@@ -11,10 +11,9 @@ export default defineConfig({
       formats: ['es', 'umd']
     },
     rollupOptions: {
-      external: ['viem', '@hyperlane-xyz/sdk', '@hyperlane-xyz/utils'],
+      external: ['@hyperlane-xyz/sdk', '@hyperlane-xyz/utils'],
       output: {
         globals: {
-          viem: 'Viem',
           '@hyperlane-xyz/sdk': 'HyperlaneSdk',
           '@hyperlane-xyz/utils': 'HyperlaneUtils'
         }
