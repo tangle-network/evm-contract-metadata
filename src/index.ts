@@ -1,6 +1,10 @@
-export * from './evm/tokens';
-export * from './evm/types';
-export * from './hyperlane/addresses';
-export * from './hyperlane/chains';
-export * from './hyperlane/types';
-export * from './hyperlane/warpRoutes';
+export { EVMTokens } from './evm/tokens';
+export { EVMChainEnum, EVMTokenEnum } from './evm/types';
+export { HyperlaneAddresses } from './hyperlane/addresses';
+export { HyperlaneChains } from './hyperlane/chains';
+export type { HyperlaneAddressesType } from './hyperlane/types';
+export { HyperlaneChainEnum } from './hyperlane/types';
+export {
+  HyperlaneWarpRouteConfig,
+  HyperlaneWarpRouteWhitelist
+} from './hyperlane/warpRoutes';
