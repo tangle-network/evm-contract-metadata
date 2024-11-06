@@ -1,7 +1,7 @@
 import { EVMChainEnum, EVMTokenEnum } from './types';
 
 /**
- * EVM Tokens and their contract addresses.
+ * EVM tokens and their contract addresses.
  *
  * example:
  *
