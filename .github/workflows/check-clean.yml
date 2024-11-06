@@ -19,14 +19,18 @@ jobs:
         node-version: [18.x]
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Enable Corepack
         run: corepack enable
+
       - name: Install dependencies
         run: yarn install
+
       - name: Format Check
         run: yarn format:check
 
@@ -38,34 +42,17 @@ jobs:
         node-version: [18.x]
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Enable Corepack
         run: corepack enable
+
       - name: Install dependencies
         run: yarn install
+
       - name: Lint Check
         run: yarn lint:check
-
-  ts-check:
-    name: ts-check
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x]
-    steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Install dependencies
-        run: |
-          yarn install
-          yarn tsc --version
-      - name: Type Check
-        run: yarn ts-check

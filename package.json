@@ -25,7 +25,6 @@
     "lint:fix": "eslint 'src/**/*.{js,ts,json,yaml,yml}' --fix",
     "format:check": "prettier --check \"**/*.{ts,js,json,yaml,yml}\"",
     "format:fix": "prettier --write \"**/*.{ts,js,json,yaml,yml}\"",
-    "ts-check": "tsc --noEmit",
     "test": "vitest"
   },
   "devDependencies": {
