@@ -9,7 +9,8 @@
   "module": "./dist/evm-contract-metadata.js",
   "types": "./dist/evm-contract-metadata.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "exports": {
     ".": {
@@ -47,5 +48,8 @@
     "@hyperlane-xyz/utils": "^5.6.2",
     "vite-plugin-dts": "^4.3.0"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.2.2",
+  "publishConfig": {
+    "access": "public"
+  }
 }
