@@ -64,6 +64,8 @@ jobs:
       - name: Enable Corepack
         run: corepack enable
       - name: Install dependencies
-        run: yarn install
+        run: |
+          yarn install
+          yarn tsc --version
       - name: Type Check
         run: yarn ts-check

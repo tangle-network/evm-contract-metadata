@@ -19,9 +19,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "test/**/*.test.ts"],
+  "include": ["src/**/*", "test/**/*"],
   "exclude": ["node_modules", "dist"]
 }
