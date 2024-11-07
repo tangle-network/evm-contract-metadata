@@ -1,5 +1,5 @@
 {
-  "name": "@tangle-network/evm-contract-metadata",
+  "name": "@webb-tools/evm-contract-metadata",
   "homepage": "https://www.tangle.tools/",
   "repository": "https://github.com/tangle-network/evm-contract-metadata",
   "version": "0.0.0",

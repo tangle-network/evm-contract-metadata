@@ -86,7 +86,7 @@ const TangleMainnetAddresses: Partial<HyperlaneAddressesType> = {
  * example:
  *
  * ```ts
- * import { HyperlaneAddresses, HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
+ * import { HyperlaneAddresses, HyperlaneChainEnum } from '@webb-tools/hyperlane-contract-metadata';
  *
  * const holeskyMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.Holesky].mailbox;
  * const tangleMainnetMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.TangleMainnet].mailbox;
