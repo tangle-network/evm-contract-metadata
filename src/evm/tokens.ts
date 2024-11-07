@@ -6,7 +6,7 @@ import { EVMChainEnum, EVMTokenEnum } from './types';
  * example:
  *
  * ```ts
- * import { EVMChainEnum, EVMTokens } from '@tangle-network/evm-contract-metadata';
+ * import { EVMChainEnum, EVMTokens } from '@webb-tools/evm-contract-metadata';
  *
  * const WETHAddressOnHolesky = EVMTokens[EVMChainEnum.Holesky].WETH;
  * const USDTAddressOnTangleMainnet = EVMTokens[EVMChainEnum.TangleMainnet].USDT;

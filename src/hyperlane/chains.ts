@@ -111,7 +111,7 @@ const TangleMainnetChainMetadata: ChainMetadata = {
  * example:
  *
  * ```ts
- * import { HyperlaneChainEnum, HyperlaneChains } from '@tangle-network/hyperlane-contract-metadata';
+ * import { HyperlaneChainEnum, HyperlaneChains } from '@webb-tools/hyperlane-contract-metadata';
  *
  * const holeskyChainMetadata = HyperlaneChains[HyperlaneChainEnum.Holesky];
  * ```
