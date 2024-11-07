@@ -24,10 +24,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
 
       - name: Enable Corepack
         run: corepack enable
+
+      - name: Setup Yarn cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
 
       - name: Install dependencies
         run: yarn install --immutable
@@ -48,10 +53,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
 
       - name: Enable Corepack
         run: corepack enable
+
+      - name: Setup Yarn cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
 
       - name: Install dependencies
         run: yarn install --immutable
@@ -72,7 +82,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Yarn cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
           cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --immutable
 
       - name: ts-check
         run: |
