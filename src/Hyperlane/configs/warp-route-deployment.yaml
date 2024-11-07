@@ -1,0 +1,19 @@
+holesky:
+  interchainSecurityModule:
+    relayer: '0x14526fE72F9560716f935D0d8E51B5E3568A8836'
+    type: trustedRelayerIsm
+  isNft: false
+  mailbox: '0x57529d3663bb44e8ab3335743dd42d2e1E3b46BA'
+  interchainGasPaymaster: '0x5CBf4e70448Ed46c2616b04e9ebc72D29FF0cfA9'
+  owner: '0x009928463436d9CFf320d4E9E0D36376c71C1C1E'
+  token: '0x94373a4919B3240D86eA41593D5eBa789FEF3848'
+  type: collateral
+tangletestnet:
+  interchainSecurityModule:
+    relayer: '0x14526fE72F9560716f935D0d8E51B5E3568A8836'
+    type: trustedRelayerIsm
+  isNft: false
+  mailbox: '0x0FDc2400B5a50637880dbEfB25d631c957620De8'
+  interchainGasPaymaster: '0x0000000000000000000000000000000000000000'
+  owner: '0x009928463436d9CFf320d4E9E0D36376c71C1C1E'
+  type: synthetic
