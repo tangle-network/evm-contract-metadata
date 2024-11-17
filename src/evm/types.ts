@@ -13,7 +13,8 @@ export enum EVMTokenEnum {
   WETH = 'WETH',
   USDT = 'USDT',
   USDC = 'USDC',
-  AVAIL = 'AVAIL'
+  AVAIL = 'AVAIL',
+  TNT = 'TNT'
 }
 
 /**
@@ -30,7 +31,14 @@ export enum EVMTokenEnum {
 export enum EVMChainEnum {
   Holesky = 'holesky',
   TangleTestnet = 'tangletestnet',
-  TangleMainnet = 'tangle'
+  Tangle = 'tangle',
+  Ethereum = 'ethereum',
+  Polygon = 'polygon',
+  Arbitrum = 'arbitrum',
+  Optimism = 'optimism',
+  Linea = 'linea',
+  Base = 'base',
+  Bsc = 'bsc'
 }
 
 /**
@@ -50,8 +58,7 @@ export enum EVMChainEnum {
 export enum EVMTokenBridgeEnum {
   Hyperlane = 'hyperlane',
   Router = 'router',
-  ERC20 = 'erc20',
-  Native = 'native'
+  None = 'none'
 }
 
 export type EVMTokenData = {
