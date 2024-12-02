@@ -3,7 +3,7 @@ holesky:
     relayer: '0x14526fE72F9560716f935D0d8E51B5E3568A8836'
     type: trustedRelayerIsm
   isNft: false
-  mailbox: '0x57529d3663bb44e8ab3335743dd42d2e1E3b46BA'
+  mailbox: '0xf8743721F38856cd6Cb800082503E80FBd055620'
   interchainGasPaymaster: '0x5CBf4e70448Ed46c2616b04e9ebc72D29FF0cfA9'
   owner: '0x009928463436d9CFf320d4E9E0D36376c71C1C1E'
   token: '0x94373a4919B3240D86eA41593D5eBa789FEF3848'
@@ -13,7 +13,7 @@ tangletestnet:
     relayer: '0x14526fE72F9560716f935D0d8E51B5E3568A8836'
     type: trustedRelayerIsm
   isNft: false
-  mailbox: '0x0FDc2400B5a50637880dbEfB25d631c957620De8'
+  mailbox: '0x4FB98bF4E45Fd5e25343cAb6fF6d86667F7c4F68'
   interchainGasPaymaster: '0x0000000000000000000000000000000000000000'
   owner: '0x009928463436d9CFf320d4E9E0D36376c71C1C1E'
   type: synthetic

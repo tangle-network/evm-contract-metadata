@@ -31,12 +31,21 @@ export const EVMTokens = {
         decimals: 18,
         abi: WETH9ABI
       }
+    },
+    [EVMTokenBridgeEnum.Hyperlane]: {
+      [EVMTokenEnum.WETH]: {
+        address: '0xa468A8013A16351D16951e04736ebcab663B5F6c',
+        name: 'Wrapped Ether',
+        symbol: 'WETH',
+        decimals: 18,
+        abi: HyperlaneERC20ABI
+      }
     }
   },
   [EVMChainEnum.TangleTestnet]: {
     [EVMTokenBridgeEnum.Hyperlane]: {
       [EVMTokenEnum.WETH]: {
-        address: '0x200DE548e393c38ee80482e9c5c186CBA7096ad4',
+        address: '0x407AE90DBa08C816B62033221b422e95AA248f63',
         name: 'Wrapped Ether',
         symbol: 'WETH',
         decimals: 18,
