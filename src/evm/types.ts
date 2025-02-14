@@ -4,7 +4,7 @@
  * example:
  *
  * ```ts
- * import { EVMTokenEnum } from '@webb-tools/evm-contract-metadata';
+ * import { EVMTokenEnum } from '@tangle-network/evm-contract-metadata';
  *
  * const WETH = EVMTokenEnum.WETH;
  * ```
@@ -23,7 +23,7 @@ export enum EVMTokenEnum {
  * example:
  *
  * ```ts
- * import { EVMChainEnum } from '@webb-tools/evm-contract-metadata';
+ * import { EVMChainEnum } from '@tangle-network/evm-contract-metadata';
  *
  * const TangleMainnet = EVMChainEnum.TangleMainnet;
  * ```
@@ -50,7 +50,7 @@ export enum EVMChainEnum {
  * example:
  *
  * ```ts
- * import { EVMTokenBridgeEnum } from '@webb-tools/evm-contract-metadata';
+ * import { EVMTokenBridgeEnum } from '@tangle-network/evm-contract-metadata';
  *
  * const Hyperlane = EVMTokenBridgeEnum.Hyperlane;
  * ```

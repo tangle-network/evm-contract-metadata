@@ -4,7 +4,7 @@
  * example:
  *
  * ```ts
- * import { HyperlaneChainEnum } from '@webb-tools/hyperlane-contract-metadata';
+ * import { HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
  *
  * const chainType = HyperlaneChainEnum.TangleMainnet;
  * ```
@@ -21,7 +21,7 @@ export enum HyperlaneChainEnum {
  * example:
  *
  * ```ts
- * import { HyperlaneAddressesType, HyperlaneChainEnum } from '@webb-tools/hyperlane-contract-metadata';
+ * import { HyperlaneAddressesType, HyperlaneChainEnum } from '@tangle-network/hyperlane-contract-metadata';
  *
  * const holeskyMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.Holesky].mailbox;
  * const tangleMainnetMailboxAddress = HyperlaneAddresses[HyperlaneChainEnum.TangleMainnet].mailbox;

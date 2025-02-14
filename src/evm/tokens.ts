@@ -14,7 +14,7 @@ import {
  * example:
  *
  * ```ts
- * import { EVMChainEnum, EVMTokens } from '@webb-tools/evm-contract-metadata';
+ * import { EVMChainEnum, EVMTokens } from '@tangle-network/evm-contract-metadata';
  *
  * const WETHAddressOnHolesky = EVMTokens.Holesky.None.WETH.address;
  * const USDTAddressOnTangleMainnet = EVMTokens.TangleMainnet.Router.USDT.address;
