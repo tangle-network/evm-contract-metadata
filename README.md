@@ -1,4 +1,4 @@
-# @webb-tools/evm-contract-metadata
+# @tangle-network/evm-contract-metadata
 
 This package contains the EVM contract addresses, bridge contracts, and configs, along with token addresses.
 
@@ -7,7 +7,7 @@ This package contains the EVM contract addresses, bridge contracts, and configs,
 To install this package, run:
 
 ```bash
-yarn add @webb-tools/evm-contract-metadata
+yarn add @tangle-network/evm-contract-metadata
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import {
   EVMTokens,
   EVMTokenEnum,
   EVMChainEnum
-} from '@webb-tools/evm-contract-metadata';
+} from '@tangle-network/evm-contract-metadata';
 ```
 
 - `HyperlaneAddresses` - Hyperlane contract addresses deployed by the Tangle Network. Contains core Hyperlane addresses like mailbox, IGP, router contracts, etc.
